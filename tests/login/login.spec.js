@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test';
 import { LoginPage } from '../../pageOjects/login.po';
 const testData = require('../../fixtures/loginFixture.json');
 
-
 test.beforeEach(async ({ page }) => {
     await page.goto('/');
 })
